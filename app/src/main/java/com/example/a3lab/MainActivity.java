@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         //Declare textViews
         tvMain = findViewById(R.id.tvMain);
         tvMem = findViewById(R.id.tvMem);
